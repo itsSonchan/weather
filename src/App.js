@@ -6,6 +6,16 @@ export default function App() {
     <div className="App">
       <h1>Weather App</h1>
       <Search />
+      <footer>
+        Find this project on{" "}
+        <a
+          href="https://github.com/itsSonchan/weather"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Github
+        </a>
+      </footer>
     </div>
   );
 }
